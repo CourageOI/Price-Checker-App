@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <div
+      class="min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8"
+    >
+      <!-- <div class="bg-white px-6 py-8 rounded shadow-md text-black w-full"></div> -->
+
+      <div class=" my-container bg-stone-400 max-w-md rounded shadow-md w-full px-6 py-8 space-y-8">
+        <div>
+          <img
+            class="bg-indigo-700 rounded-lg mx-auto h-20 w-auto"
+            src="../images/finance_icon.png"
+            alt="Workflow"
+          />
+          <h2 class="mt-5 mb-20 text-center text-3xl font-extrabold text-white">
+            Expense Tracker by Eme
+          </h2>
+        </div>
+
+        <div>
+            <label for="name" class="sr-only">Email address</label>
+            <input
+              id="name"
+              name="name"
+              type="name"
+              autocomplete="name"
+              required
+              class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+              placeholder="Full name"
+            />
+          </div>
+
+          <div>
+            <label for="email-address" class="sr-only">Email address</label>
+            <input
+              id="email-address"
+              name="email"
+              type="email"
+              autocomplete="email"
+              required
+              class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+              placeholder="Email address"
+            />
+          </div>
+
+          <div>
+            <label for="password" class="sr-only">Password</label>
+            <input
+              id="password"
+              name="password"
+              type="password"
+              autocomplete="current-password"
+              required
+              class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+              placeholder="Password"
+            />
+          </div>
+
+          <div>
+            <label for="password" class="sr-only">Confirm password</label>
+            <input
+              id="password"
+              name="password"
+              type="password"
+              autocomplete="current-password"
+              required
+              class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+              placeholder="Confirmed password"
+            />
+          </div>
+
+          <div class="flex flex-col justify-center items-center">
+            <button
+              type="submit"
+              class="group relative w-7/12 flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            >
+              <span class="absolute left-0 inset-y-0 flex items-center pl-3">
+                
+                </svg>
+              </span>
+              Sign up
+            </button>
+
+            <p class="mt-10 text-center text-sm text-gray-600">
+                Or already have an account?
+                <a
+                  href="./login.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="font-medium text-indigo-600 hover:text-indigo-500"
+                >
+                  Sign in!
+                </a>
+              </p>
+        </div>
+  </body>
+</html>
